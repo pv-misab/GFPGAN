@@ -1,5 +1,5 @@
 torch>=1.7
-numpy<1.21  # numba requires numpy<1.21,>=1.17
+numpy<1.22.2  # numba requires numpy<1.21,>=1.17
 opencv-python
 torchvision
 scipy
@@ -10,3 +10,7 @@ lmdb
 pyyaml
 tb-nightly
 yapf
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
