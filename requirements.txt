@@ -1,4 +1,4 @@
-torch>=1.7
+torch>=2.7.1
 numpy<1.21  # numba requires numpy<1.21,>=1.17
 opencv-python
 torchvision
@@ -10,3 +10,4 @@ lmdb
 pyyaml
 tb-nightly
 yapf
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
